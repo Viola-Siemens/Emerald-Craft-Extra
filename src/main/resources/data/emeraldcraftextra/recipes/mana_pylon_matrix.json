@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "botania:mana_pylon"
+    },
+    "#": {
+      "item": "botania:gaia_pylon"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:mana_pylon_matrix"
+  }
+}

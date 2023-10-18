@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "EHI",
+    "GNI"
+  ],
+  "key": {
+    "I": {
+      "item": "emeraldcraftextra:shadow_ingot"
+    },
+    "E": {
+      "item": "emeraldcraftextra:emerald_matrix"
+    },
+    "H": {
+      "item": "emeraldcraft:warden_heart"
+    },
+    "G": {
+      "item": "emeraldcraftextra:gaia_storm"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_shadow_dominator_sword_hilt"
+  }
+}

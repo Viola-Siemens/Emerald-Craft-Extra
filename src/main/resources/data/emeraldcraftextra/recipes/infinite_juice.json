@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "emeraldcraft:apple_juice"
+    },
+    {
+      "item": "emeraldcraft:beetroot_juice"
+    },
+    {
+      "item": "emeraldcraft:carrot_juice"
+    },
+    {
+      "item": "emeraldcraft:melon_juice"
+    },
+    {
+      "item": "emeraldcraft:peach_juice"
+    },
+    {
+      "item": "emeraldcraft:pumpkin_juice"
+    },
+    {
+      "item": "emeraldcraft:melted_emerald_bucket"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:infinite_juice"
+  }
+}

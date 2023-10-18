@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "botania:elementium_block"
+    },
+    {
+      "item": "botania:terrasteel_block"
+    },
+    {
+      "item": "botania:sextant"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:universe_ingot"
+  }
+}

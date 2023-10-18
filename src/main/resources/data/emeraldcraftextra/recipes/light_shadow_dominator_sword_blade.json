@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " B ",
+    "C  "
+  ],
+  "key": {
+    "S": {
+      "item": "emeraldcraftextra:light_shadow_sword_spirit"
+    },
+    "B": {
+      "item": "emeraldcraftextra:light_brand"
+    },
+    "C": {
+      "item": "emeraldcraftextra:infinite_core"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_shadow_dominator_sword_blade"
+  }
+}

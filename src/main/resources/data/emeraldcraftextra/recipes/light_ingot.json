@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "emeraldcraftextra:blaze_ingot"
+    },
+    "#": {
+      "item": "emeraldcraftextra:glow_ingot"
+    },
+    "X": {
+      "item": "emeraldcraftextra:shining_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_ingot"
+  }
+}

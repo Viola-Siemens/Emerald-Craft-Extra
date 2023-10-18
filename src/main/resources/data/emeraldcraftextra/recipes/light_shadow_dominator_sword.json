@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B",
+    "H "
+  ],
+  "key": {
+    "B": {
+      "item": "emeraldcraftextra:light_shadow_dominator_sword_blade"
+    },
+    "H": {
+      "item": "emeraldcraftextra:light_shadow_dominator_sword_hilt"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_shadow_dominator_sword"
+  }
+}

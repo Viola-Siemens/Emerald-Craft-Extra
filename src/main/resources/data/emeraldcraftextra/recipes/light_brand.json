@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O#N",
+    "DED",
+    "N#O"
+  ],
+  "key": {
+    "O": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    },
+    "#": {
+      "item": "emeraldcraftextra:light_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_brand"
+  }
+}

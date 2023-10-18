@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "#": {
+      "item": "botania:life_essence"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:terrasteel_matrix"
+  }
+}

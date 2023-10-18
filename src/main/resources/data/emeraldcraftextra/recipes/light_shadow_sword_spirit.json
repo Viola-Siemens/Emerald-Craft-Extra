@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "#B#",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "emeraldcraftextra:elementary_blade"
+    },
+    "B": {
+      "item": "emeraldcraftextra:elementary_knife"
+    },
+    "C": {
+      "item": "emeraldcraftextra:elementary_sword"
+    },
+    "#": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:light_shadow_sword_spirit"
+  }
+}

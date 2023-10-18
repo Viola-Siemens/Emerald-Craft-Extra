@@ -1,0 +1,38 @@
+{
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  "itemGroup.emeraldcraftextra": "Emerald Craft LSC Extra",
+
+  "item.emeraldcraftextra.emerald_craft_egg": "The Emerald Craft Egg",
+  "item.emeraldcraftextra.emerald_matrix": "Emerald Matrix",
+  "item.emeraldcraftextra.lapis_matrix": "Lapis Matrix",
+  "item.emeraldcraftextra.infinite_juice": "Infinite Juice",
+  "item.emeraldcraftextra.botany_emissary_egg": "The Botany Emissary Egg",
+  "item.emeraldcraftextra.gaia_storm": "Gaia Storm",
+  "item.emeraldcraftextra.terrasteel_matrix": "Terrasteel Matrix",
+  "item.emeraldcraftextra.spirit_ingot": "Spirit Ingot",
+  "item.emeraldcraftextra.botany_cream": "Botany Cream",
+  "item.emeraldcraftextra.mana_pylon_matrix": "Mana Pylon Matrix",
+
+  "item.emeraldcraftextra.light_shadow_dominator_sword": "Light Shadow Dominator Sword",
+  "item.emeraldcraftextra.light_shadow_dominator_sword_blade": "Light Shadow Dominator Sword Blade",
+  "item.emeraldcraftextra.light_shadow_dominator_sword_hilt": "Light Shadow Dominator Sword Hilt",
+  "item.emeraldcraftextra.shadow_ingot": "Shadow Ingot",
+  "item.emeraldcraftextra.obsidian_matrix": "Obsidian Matrix",
+  "item.emeraldcraftextra.compressed_obsidian": "Compressed Obsidian",
+  "item.emeraldcraftextra.universe_ingot": "Universe Ingot",
+  "item.emeraldcraftextra.light_shadow_sword_spirit": "Light Shadow Sword Spirit",
+  "item.emeraldcraftextra.elementary_blade": "Elementary Blade",
+  "item.emeraldcraftextra.elementary_knife": "Elementary Knife",
+  "item.emeraldcraftextra.elementary_sword": "Elementary Sword",
+  "item.emeraldcraftextra.light_brand": "Light Brand",
+  "item.emeraldcraftextra.light_ingot": "Light Ingot",
+  "item.emeraldcraftextra.blaze_ingot": "Blaze Ingot",
+  "item.emeraldcraftextra.glow_ingot": "Glow Ingot",
+  "item.emeraldcraftextra.shining_star": "Shining Star",
+  "item.emeraldcraftextra.gold_matrix": "Gold Matrix",
+  "item.emeraldcraftextra.infinite_core": "Infinite Core",
+
+  "desc.emeraldcraftextra.light_shadow_dominator_sword": "Game is Over!"
+}

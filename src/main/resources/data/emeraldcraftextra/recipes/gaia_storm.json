@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "botania:mana_bomb"
+    },
+    "#": {
+      "item": "botania:mana_gun"
+    },
+    "X": {
+      "item": "botania:gaia_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:gaia_storm"
+  }
+}

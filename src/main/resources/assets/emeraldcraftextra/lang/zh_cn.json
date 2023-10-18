@@ -1,0 +1,38 @@
+{
+  "language": "Chinese",
+  "language.code": "zh_cn",
+  "language.region": "China",
+  "itemGroup.emeraldcraftextra": "绿宝石工艺LSC附加",
+
+  "item.emeraldcraftextra.emerald_craft_egg": "【绿宝石工艺头衔蛋】",
+  "item.emeraldcraftextra.emerald_matrix": "绿宝石矩阵",
+  "item.emeraldcraftextra.lapis_matrix": "青金石矩阵",
+  "item.emeraldcraftextra.infinite_juice": "无尽果汁",
+  "item.emeraldcraftextra.botany_emissary_egg": "【植物使者头衔蛋】",
+  "item.emeraldcraftextra.gaia_storm": "盖亚风暴",
+  "item.emeraldcraftextra.terrasteel_matrix": "泰拉钢矩阵",
+  "item.emeraldcraftextra.spirit_ingot": "精灵锭",
+  "item.emeraldcraftextra.botany_cream": "植物精华",
+  "item.emeraldcraftextra.mana_pylon_matrix": "魔法水晶矩阵",
+
+  "item.emeraldcraftextra.light_shadow_dominator_sword": "光影支配之剑",
+  "item.emeraldcraftextra.light_shadow_dominator_sword_blade": "光影支配之剑剑刃",
+  "item.emeraldcraftextra.light_shadow_dominator_sword_hilt": "光影支配之剑剑柄",
+  "item.emeraldcraftextra.shadow_ingot": "影之锭",
+  "item.emeraldcraftextra.obsidian_matrix": "黑曜石矩阵",
+  "item.emeraldcraftextra.compressed_obsidian": "压缩黑曜石",
+  "item.emeraldcraftextra.universe_ingot": "寰宇锭",
+  "item.emeraldcraftextra.light_shadow_sword_spirit": "光影剑魂",
+  "item.emeraldcraftextra.elementary_blade": "刃原",
+  "item.emeraldcraftextra.elementary_knife": "刀原",
+  "item.emeraldcraftextra.elementary_sword": "剑原",
+  "item.emeraldcraftextra.light_brand": "光之剑身",
+  "item.emeraldcraftextra.light_ingot": "光之锭",
+  "item.emeraldcraftextra.blaze_ingot": "烈焰锭",
+  "item.emeraldcraftextra.glow_ingot": "荧光锭",
+  "item.emeraldcraftextra.shining_star": "闪耀之星",
+  "item.emeraldcraftextra.gold_matrix": "金矩阵",
+  "item.emeraldcraftextra.infinite_core": "无尽核心",
+
+  "desc.emeraldcraftextra.light_shadow_dominator_sword": "游戏结束！"
+}

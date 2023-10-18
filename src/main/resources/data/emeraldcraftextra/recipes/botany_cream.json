@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "WBW",
+    "S#S"
+  ],
+  "key": {
+    "M": {
+      "item": "emeraldcraftextra:terrasteel_matrix"
+    },
+    "W": {
+      "item": "botania:livingwood"
+    },
+    "B": {
+      "item": "botania:lexicon"
+    },
+    "S": {
+      "item": "botania:livingrock"
+    },
+    "#": {
+      "item": "botania:spawner_claw"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:botany_cream"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#I#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    },
+    "#": {
+      "item": "botania:gaia_ingot"
+    },
+    "I": {
+      "item": "emeraldcraftextra:universe_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:shadow_ingot"
+  }
+}

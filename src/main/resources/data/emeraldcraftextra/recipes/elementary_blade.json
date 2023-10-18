@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "botania:terra_sword"
+    },
+    "X": {
+      "item": "botania:terrasteel_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:elementary_blade"
+  }
+}

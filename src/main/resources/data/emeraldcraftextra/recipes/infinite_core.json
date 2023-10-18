@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "C#C"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "#": {
+      "item": "emeraldcraftextra:infinite_juice"
+    },
+    "X": {
+      "item": "minecraft:beacon"
+    },
+    "C": {
+      "item": "emeraldcraftextra:compressed_obsidian"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:infinite_core"
+  }
+}

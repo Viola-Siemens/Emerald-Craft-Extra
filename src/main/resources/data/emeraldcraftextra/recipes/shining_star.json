@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#X#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "emeraldcraftextra:blaze_ingot"
+    },
+    "#": {
+      "item": "emeraldcraftextra:gold_matrix"
+    },
+    "X": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:shining_star"
+  }
+}

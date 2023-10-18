@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "emeraldcraftextra:emerald_matrix"
+    },
+    {
+      "item": "emeraldcraftextra:emerald_matrix"
+    },
+    {
+      "item": "emeraldcraftextra:infinite_juice"
+    },
+    {
+      "item": "emeraldcraftextra:lapis_matrix"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "emeraldcraft:warden_heart"
+    },
+    {
+      "item": "emeraldcraft:silver_concentrate"
+    },
+    {
+      "item": "emeraldcraft:nickel_concentrate"
+    },
+    {
+      "item": "emeraldcraft:uranium_concentrate"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:emerald_craft_egg"
+  }
+}

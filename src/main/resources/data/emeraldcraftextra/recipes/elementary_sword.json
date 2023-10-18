@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "immersiveengineering:sword_steel"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "botania:manasteel_sword"
+    },
+    {
+      "item": "botania:elementium_sword"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:elementary_sword"
+  }
+}

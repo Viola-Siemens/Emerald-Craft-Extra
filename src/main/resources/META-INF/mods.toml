@@ -1,0 +1,59 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+
+[[mods]]
+modId="emeraldcraftextra"
+version="${file.jarVersion}"
+displayName="Emerald Craft Extra Mod"
+logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Hexagram"
+description='''
+Extra crafts of Emerald Craft.
+
+This mod WORKS FOR LSC ONLY! Do not distribute, decompile and modify!
+'''
+
+[[dependencies.emeraldcraftextra]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="emeraldcraft"
+    mandatory=true
+    versionRange="[6.0,7.0)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="botania"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="skullcraft"
+    mandatory=true
+    versionRange="[2.0.0,6.0.0)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="immersiveengineering"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

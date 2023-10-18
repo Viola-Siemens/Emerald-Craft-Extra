@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#B#",
+    "B#B"
+  ],
+  "key": {
+    "B": {
+      "item": "botania:elementium_block"
+    },
+    "#": {
+      "item": "botania:life_essence"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:spirit_ingot"
+  }
+}

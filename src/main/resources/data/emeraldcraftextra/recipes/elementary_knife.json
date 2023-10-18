@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:golden_knife"
+    },
+    {
+      "item": "farmersdelight:flint_knife"
+    },
+    {
+      "item": "farmersdelight:iron_knife"
+    },
+    {
+      "item": "farmersdelight:diamond_knife"
+    },
+    {
+      "item": "farmersdelight:netherite_knife"
+    },
+    {
+      "item": "skullcraft:kopis"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:elementary_knife"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "emeraldcraftextra:botany_cream"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "emeraldcraftextra:spirit_ingot"
+    },
+    {
+      "item": "emeraldcraftextra:terrasteel_matrix"
+    },
+    {
+      "item": "emeraldcraftextra:gaia_storm"
+    },
+    {
+      "item": "emeraldcraftextra:terrasteel_matrix"
+    },
+    {
+      "item": "emeraldcraftextra:spirit_ingot"
+    },
+    {
+      "item": "botania:terra_sword"
+    },
+    {
+      "item": "emeraldcraftextra:mana_pylon_matrix"
+    }
+  ],
+  "result": {
+    "item": "emeraldcraftextra:botany_emissary_egg"
+  }
+}
