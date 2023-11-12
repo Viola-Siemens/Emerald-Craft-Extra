@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RNR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "emeraldcraftextra:shadow_ingot"
+    },
+    "R": {
+      "item": "emeraldcraftextra:he_redstone_matrix"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:antimatter_ingot"
+  }
+}

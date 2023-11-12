@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "OIO",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "emeraldcraftextra:he_redstone_matrix"
+    },
+    "C": {
+      "item": "emeraldcraftextra:coal_matrix"
+    },
+    "O": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    },
+    "I": {
+      "item": "emeraldcraftextra:antimatter_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:antimatter_energy_core"
+  }
+}

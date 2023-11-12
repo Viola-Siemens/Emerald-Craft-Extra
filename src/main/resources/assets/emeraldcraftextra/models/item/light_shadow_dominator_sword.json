@@ -1,5 +1,5 @@
 {
-  "parent":"item/generated",
+  "parent":"minecraft:item/handheld",
   "textures": {
     "layer0":"emeraldcraftextra:item/light_shadow_dominator_sword"
   }

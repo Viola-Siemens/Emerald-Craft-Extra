@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R#R",
+    "CXC",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "emeraldcraftextra:coal_matrix"
+    },
+    "X": {
+      "item": "emeraldcraftextra:universe_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:energy_matrix"
+  }
+}

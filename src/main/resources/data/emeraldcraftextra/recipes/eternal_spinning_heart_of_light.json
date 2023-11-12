@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "AXA",
+    " # "
+  ],
+  "key": {
+    "I": {
+      "item": "emeraldcraftextra:infinitely_spinning_core"
+    },
+    "A": {
+      "item": "emeraldcraftextra:antimatter_energy_core"
+    },
+    "X": {
+      "item": "emeraldcraftextra:stress_core"
+    },
+    "#": {
+      "item": "emeraldcraftextra:worldshapers_stress_meter"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:eternal_spinning_heart_of_light"
+  }
+}

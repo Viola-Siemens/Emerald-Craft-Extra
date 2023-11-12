@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "U",
+    "W",
+    "L"
+  ],
+  "key": {
+    "U": {
+      "item": "emeraldcraftextra:universe_ingot"
+    },
+    "W": {
+      "item": "emeraldcraftextra:infinitely_spinning_wheel"
+    },
+    "L": {
+      "item": "emeraldcraftextra:light_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:worldshapers_stress_meter"
+  }
+}

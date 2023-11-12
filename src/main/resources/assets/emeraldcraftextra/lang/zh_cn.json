@@ -34,5 +34,25 @@
   "item.emeraldcraftextra.gold_matrix": "金矩阵",
   "item.emeraldcraftextra.infinite_core": "无尽核心",
 
+  "item.emeraldcraftextra.reinforced_light_shadow_dominator_sword": "强化光影支配之剑",
+  "item.emeraldcraftextra.eternal_spinning_heart_of_light": "永恒旋转光源亘之心",
+  "item.emeraldcraftextra.stress_core": "应力核心",
+  "item.emeraldcraftextra.elementary_strength": "力源",
+  "item.emeraldcraftextra.he_compressed_motor": "高能压缩马达",
+  "item.emeraldcraftextra.he_redstone_matrix": "高能红石阵",
+  "item.emeraldcraftextra.he_core": "高能核心",
+  "item.emeraldcraftextra.elementary_energy": "能源",
+  "item.emeraldcraftextra.fusion_star": "聚变之星",
+  "item.emeraldcraftextra.mimetic_neutretto": "拟态中介子",
+  "item.emeraldcraftextra.energy_matrix": "能源矩阵",
+  "item.emeraldcraftextra.compressed_coal_block": "压缩煤炭块",
+  "item.emeraldcraftextra.coal_matrix": "煤矩阵",
+  "item.emeraldcraftextra.worldshapers_stress_meter": "盖世应力仪",
+  "item.emeraldcraftextra.infinitely_spinning_wheel": "无尽旋转之轮",
+  "item.emeraldcraftextra.universe_wheel": "寰宇转轮",
+  "item.emeraldcraftextra.infinitely_spinning_core": "无尽旋转核心",
+  "item.emeraldcraftextra.antimatter_energy_core": "反物质能源核心",
+  "item.emeraldcraftextra.antimatter_ingot": "反物质锭",
+
   "desc.emeraldcraftextra.light_shadow_dominator_sword": "游戏结束！"
 }

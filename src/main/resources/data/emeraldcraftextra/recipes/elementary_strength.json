@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GOG",
+    "RXR",
+    "NON"
+  ],
+  "key": {
+    "G": {
+      "item": "emeraldcraftextra:gold_matrix"
+    },
+    "O": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    },
+    "R": {
+      "item": "emeraldcraftextra:he_redstone_matrix"
+    },
+    "X": {
+      "item": "emeraldcraftextra:he_compressed_motor"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:elementary_strength"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "X"
+  ],
+  "key": {
+    "#": {
+      "item": "emeraldcraftextra:elementary_energy"
+    },
+    "X": {
+      "item": "emeraldcraftextra:elementary_strength"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:stress_core"
+  }
+}

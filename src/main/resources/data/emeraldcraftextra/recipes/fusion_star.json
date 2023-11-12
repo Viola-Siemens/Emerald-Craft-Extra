@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "RSR",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "emeraldcraftextra:mimetic_neutretto"
+    },
+    "R": {
+      "item": "emeraldcraftextra:he_redstone_matrix"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:he_core"
+  }
+}

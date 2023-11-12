@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BOR",
+    "OIO",
+    "BOB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "O": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "I": {
+      "item": "emeraldcraftextra:universe_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:universe_wheel"
+  }
+}

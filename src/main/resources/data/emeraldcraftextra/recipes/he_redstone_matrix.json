@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "RCR",
+    "BRB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "C": {
+      "item": "emeraldcraftextra:he_core"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:he_redstone_matrix"
+  }
+}

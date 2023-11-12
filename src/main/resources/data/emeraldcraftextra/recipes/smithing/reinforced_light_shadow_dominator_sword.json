@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "emeraldcraftextra:light_shadow_dominator_sword"
+  },
+  "addition": {
+    "item": "emeraldcraftextra:eternal_spinning_heart_of_light"
+  },
+  "result": {
+    "item": "emeraldcraftextra:reinforced_light_shadow_dominator_sword"
+  }
+}

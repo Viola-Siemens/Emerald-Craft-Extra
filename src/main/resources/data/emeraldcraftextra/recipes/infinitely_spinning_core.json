@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OWO",
+    "WCW",
+    "OWO"
+  ],
+  "key": {
+    "O": {
+      "item": "emeraldcraftextra:compressed_obsidian"
+    },
+    "W": {
+      "item": "emeraldcraftextra:infinitely_spinning_wheel"
+    },
+    "C": {
+      "item": "emeraldcraftextra:infinite_core"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:infinitely_spinning_core"
+  }
+}

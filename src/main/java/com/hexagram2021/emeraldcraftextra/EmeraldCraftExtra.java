@@ -8,7 +8,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.jetbrains.annotations.NotNull;
 
 @Mod(EmeraldCraftExtra.MODID)
 public class EmeraldCraftExtra {
@@ -23,7 +22,7 @@ public class EmeraldCraftExtra {
 	}
 
 	public static final CreativeModeTab EMERALD_CRAFT_EXTRA = new CreativeModeTab(MODID) {
-		@Override @NotNull
+		@Override
 		public ItemStack makeIcon() {
 			return new ItemStack(ECEItems.EMERALD_CRAFT_EGG.get());
 		}

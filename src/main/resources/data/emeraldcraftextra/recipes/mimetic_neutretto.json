@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLG",
+    "COC",
+    "GLB"
+  ],
+  "key": {
+    "B": {
+      "item": "emeraldcraftextra:blaze_ingot"
+    },
+    "L": {
+      "item": "emeraldcraftextra:lapis_matrix"
+    },
+    "G": {
+      "item": "emeraldcraftextra:glow_ingot"
+    },
+    "C": {
+      "item": "emeraldcraftextra:compressed_obsidian"
+    },
+    "O": {
+      "item": "emeraldcraftextra:obsidian_matrix"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:mimetic_neutretto"
+  }
+}

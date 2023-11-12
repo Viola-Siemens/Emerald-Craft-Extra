@@ -1,7 +1,7 @@
 package com.hexagram2021.emeraldcraftextra.common.register;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
+import com.hexagram2021.emeraldcraftextra.common.items.LightShadowDominatorSwordItem;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
@@ -11,10 +11,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
-import java.util.List;
 
 import static com.hexagram2021.emeraldcraftextra.EmeraldCraftExtra.EMERALD_CRAFT_EXTRA;
 import static com.hexagram2021.emeraldcraftextra.EmeraldCraftExtra.MODID;
@@ -25,30 +21,28 @@ public class ECEItems {
 	private static final Item.Properties EGG_PROPERTIES = new Item.Properties().rarity(Rarity.RARE).stacksTo(1).tab(EMERALD_CRAFT_EXTRA);
 	private static final Item.Properties COMMON_PROPERTIES = new Item.Properties().tab(EMERALD_CRAFT_EXTRA);
 	private static final Item.Properties UNCOMMON_PROPERTIES = new Item.Properties().rarity(Rarity.UNCOMMON).tab(EMERALD_CRAFT_EXTRA);
+	private static final Item.Properties SWORD_PROPERTIES = new Item.Properties().rarity(Rarity.EPIC).stacksTo(1).tab(EMERALD_CRAFT_EXTRA);
 
-	private static final Tier LIGHT_SHADOW_DOMINATOR = new ForgeTier(4, 1, 10.0F, 50.0F, 20, Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.STRING));
+	private static final Tier LIGHT_SHADOW_DOMINATOR = new ForgeTier(4, 1, 10.0F, 90.0F, 20, Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.STRING));
+	private static final Tier REINFORCED_LIGHT_SHADOW_DOMINATOR = new ForgeTier(4, 1, 12.0F, 160.0F, 25, Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.STRING));
 
 	public static final RegistryObject<Item> EMERALD_CRAFT_EGG = REGISTER.register("emerald_craft_egg", () -> new Item(EGG_PROPERTIES) {
 		@Override
-		public boolean isFoil(@NotNull ItemStack itemStack) {
+		public boolean isFoil(ItemStack itemStack) {
 			return true;
 		}
 	});
 	public static final RegistryObject<Item> BOTANY_EMISSARY_EGG = REGISTER.register("botany_emissary_egg", () -> new Item(EGG_PROPERTIES) {
 		@Override
-		public boolean isFoil(@NotNull ItemStack itemStack) {
+		public boolean isFoil(ItemStack itemStack) {
 			return true;
 		}
 	});
-	public static final RegistryObject<SwordItem> LIGHT_SHADOW_DOMINATOR_SWORD = REGISTER.register("light_shadow_dominator_sword", () -> new SwordItem(LIGHT_SHADOW_DOMINATOR, 3, -2.4F, new Item.Properties().rarity(Rarity.EPIC).stacksTo(1).tab(EMERALD_CRAFT_EXTRA)) {
+	public static final RegistryObject<LightShadowDominatorSwordItem> LIGHT_SHADOW_DOMINATOR_SWORD = REGISTER.register("light_shadow_dominator_sword", () -> new LightShadowDominatorSwordItem(LIGHT_SHADOW_DOMINATOR, SWORD_PROPERTIES));
+	public static final RegistryObject<LightShadowDominatorSwordItem> REINFORCED_LIGHT_SHADOW_DOMINATOR_SWORD = REGISTER.register("reinforced_light_shadow_dominator_sword", () -> new LightShadowDominatorSwordItem(REINFORCED_LIGHT_SHADOW_DOMINATOR, SWORD_PROPERTIES) {
 		@Override
-		public boolean isDamageable(ItemStack stack) {
-			return false;
-		}
-
-		@Override
-		public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, @NotNull List<Component> components, @NotNull TooltipFlag flag) {
-			components.add(Component.translatable("desc.emeraldcraftextra.light_shadow_dominator_sword").withStyle(ChatFormatting.GRAY));
+		public void inventoryTick(ItemStack p_41404_, Level p_41405_, Entity p_41406_, int p_41407_, boolean p_41408_) {
+			super.inventoryTick(p_41404_, p_41405_, p_41406_, p_41407_, p_41408_);
 		}
 	});
 
@@ -80,6 +74,25 @@ public class ECEItems {
 		REGISTER.register("shining_star", () -> new Item(COMMON_PROPERTIES));
 		REGISTER.register("gold_matrix", () -> new Item(COMMON_PROPERTIES));
 		REGISTER.register("infinite_core", () -> new Item(UNCOMMON_PROPERTIES));
+
+		REGISTER.register("eternal_spinning_heart_of_light", () -> new Item(UNCOMMON_PROPERTIES));
+		REGISTER.register("stress_core", () -> new Item(UNCOMMON_PROPERTIES));
+		REGISTER.register("elementary_strength", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("he_compressed_motor", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("he_redstone_matrix", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("he_core", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("elementary_energy", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("fusion_star", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("mimetic_neutretto", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("energy_matrix", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("coal_matrix", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("compressed_coal_block", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("worldshapers_stress_meter", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("infinitely_spinning_wheel", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("universe_wheel", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("infinitely_spinning_core", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("antimatter_energy_core", () -> new Item(COMMON_PROPERTIES));
+		REGISTER.register("antimatter_ingot", () -> new Item(COMMON_PROPERTIES));
 
 		REGISTER.register(bus);
 	}

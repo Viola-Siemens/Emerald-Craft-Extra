@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TBT",
+    "RAR",
+    "GBG"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "emeraldcraftextra:he_redstone_matrix"
+    },
+    "A": {
+      "item": "create:andesite_encased_shaft"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:he_compressed_motor"
+  }
+}

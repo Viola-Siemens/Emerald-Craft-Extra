@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "ESE",
+    "PEP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:packed_ice"
+    },
+    "E": {
+      "item": "emeraldcraftextra:energy_matrix"
+    },
+    "S": {
+      "item": "emeraldcraftextra:fusion_star"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:elementary_energy"
+  }
+}

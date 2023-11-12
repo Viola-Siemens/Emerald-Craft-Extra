@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:compressed_coal_block"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:coal_matrix"
+  }
+}

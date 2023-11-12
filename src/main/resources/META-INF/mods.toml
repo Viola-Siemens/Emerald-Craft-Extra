@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="All rights reserved"
+license="All Rights Reserved"
 
 [[mods]]
 modId="emeraldcraftextra"
@@ -10,9 +10,11 @@ logoFile="logo.png"
 credits="Liu Dongyu"
 authors="Hexagram"
 description='''
-Extra crafts of Emerald Craft.
+Extra crafts of Emerald Craft and Other Mods.
 
 This mod WORKS FOR LSC ONLY! Do not distribute, decompile and modify!
+
+本模组仅用于LSC文明之海服务器定制，请勿传播或用于开服和添加进整合包中！
 '''
 
 [[dependencies.emeraldcraftextra]]
@@ -25,6 +27,12 @@ This mod WORKS FOR LSC ONLY! Do not distribute, decompile and modify!
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emeraldcraftextra]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.emeraldcraftextra]]

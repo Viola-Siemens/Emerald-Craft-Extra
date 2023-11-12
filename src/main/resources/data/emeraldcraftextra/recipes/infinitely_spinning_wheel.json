@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WIW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "emeraldcraftextra:universe_wheel"
+    },
+    "I": {
+      "item": "emeraldcraftextra:universe_ingot"
+    }
+  },
+  "result": {
+    "item": "emeraldcraftextra:infinitely_spinning_wheel"
+  }
+}
